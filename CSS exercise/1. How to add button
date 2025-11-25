@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="D:\HTML\HTML exercise\How to add icon\download (1).jpeg" type="image/jpeg">
+    <title>How to add button</title>
+</head>
+
+<body>
+    <button
+        style="font-size: 25px;background-color: rgb(214, 207, 198); border-color: rgb(230, 6, 6);border-radius: 20px;"><b>Click me</b></button>
+    <a href="https://www.chess.com/home" title="Play chess" target="_blank">
+        <button style="background-color: beige; font-size: 25px; border-color: brown; border-radius: 25px;"><b>play chess</b></button>
+    </a>
+</body>
+
+</html>
