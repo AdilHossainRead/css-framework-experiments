@@ -1,0 +1,21 @@
+<body>{
+    background-color: rgb(40, 187, 187);
+}
+h1{
+    color: rgb(32, 32, 228);
+    text-align: center;
+}
+pre{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color:rgb(40, 187, 187);
+    }
+#p{
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(132, 0, 255);
+}
+#p{
+    text-decoration: none;
+    color: rgb(252, 2, 2);
+}
