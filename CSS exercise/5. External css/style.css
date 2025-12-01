@@ -1,0 +1,25 @@
+#body{
+    background-color: #d2e903;
+}
+#h1{
+    color: #1b03f3;
+    background-color: #d2e903;
+    text-align: center;
+}
+#p1{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #d2e903;
+}
+#pre1{
+    background-color: #720505;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1b03f3;
+}
+#p2{
+    font-size: 14px;
+    color: #03fc73;
+    margin-top: 15px;
+}
