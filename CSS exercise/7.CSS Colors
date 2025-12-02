@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>how to set CSS Colors</title>
+        <style>
+            body{
+                background-color: antiquewhite;
+            }
+            h1{
+                color: rgb(32, 32, 223);
+                color: #66dddd;
+                color: hsl(0, 69%, 51%);
+                color: hwb(0 16% 73%);
+                color: lab(51.37% -21.4 -6.62);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Hello friend</h1>
+
+    </body>
+
+
+</html>
