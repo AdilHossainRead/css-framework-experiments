@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Selection Example</title>
+        <style>
+            body{ 
+                background-color: antiquewhite;
+                
+            }
+            div{height: 200px;
+                width :200px;
+                background-color: aquamarine;
+                margin: 20px;
+            
+            }
+            p{
+                color: red;
+                font-size: large;
+            }
+            div p{
+                color: blue;
+                font-size:small;
+            }
+            .text-green{
+                color: grey;
+                text-align:right
+            }
+            .new-div{
+                background-color: rgb(126, 110, 141);
+            }
+            .new-div2{
+                color: rgb(243, 138, 0);
+            }
+
+        </style>
+    </head>
+        <body>   
+            <h1>Assalamu Alaikum </h1>
+            <h1>I am Adil hossain</h1>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Beatae soluta ex laudantium numquam, ab dolorem dolor tenetur. 
+                    Ducimus voluptatum, officia consequatur cupiditate atque optio 
+                    ratione. Repudiandae at blanditiis illum cumque!
+                </p>
+
+            </div>
+
+            <div>
+                <p class="text-green">Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, sit!</p>
+                <p class="text-green">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, possimus?</p>
+            </div>
+
+            <div class="new-div">
+                <p class="new-div2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Beatae soluta ex laudantium numquam, ab dolorem dolor tenetur. 
+                    Ducimus voluptatum, officia consequatur cupiditate atque optio 
+                    ratione. Repudiandae at blanditiis illum cumque!
+                </p>
+
+            </div>
+
+            <p class="new-div">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Non, et dicta natus ab porro illo explicabo amet doloribus 
+                 tempore autem nostrum distinctio rerum iste vero accusantium, 
+                 suscipit soluta enim mollitia.
+            </p>
+        </body>
+</html>
