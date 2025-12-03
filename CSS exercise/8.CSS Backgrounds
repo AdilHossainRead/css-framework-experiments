@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to set CSS Backgrounds. </title>
+
+    <style>
+        body{
+            background-image: url(media\cdbb3f554fe553f18ed9c015e4f38dde.jpg);
+        }
+        div {
+            height: 300px;
+            width: 250px;
+            background-color: antiquewhite;
+        }
+
+        .h1 {
+            color: rgba(255, 0, 0, .6);
+        }
+
+        #p {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Assalamu Alaikum </h1>
+    <h1 class="h1">I am Adil hossain</h1>
+    <div>
+        <p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Beatae soluta ex laudantium numquam, ab dolorem dolor tenetur.
+            Ducimus voluptatum, officia consequatur cupiditate atque optio
+            ratione. Repudiandae at blanditiis illum cumque!
+        </p>
+
+    </div>
+</body>
+
+</html>
