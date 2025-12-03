@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Borders </title>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        h1 {
+            color: blue;
+            border-style: dashed;
+            border: 5px red solid;
+            border-radius: 10px;
+        }
+
+        .h2 {
+            color: blueviolet;
+            border-style: inset;
+            border-color: aquamarine;
+            border-width: 10px;
+        }
+
+        #p {
+            color: rgb(243, 8, 223);
+            /*border-style: ridge;
+                border-width: 10px;*/
+            border-right: 5px dashed goldenrod;
+            border-left: 5px dotted greenyellow;
+            border-top: 5px rebeccapurple groove;
+            border-bottom: 5px gold double;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nobis.</h1>
+    <h2 class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, tenetur!</h2>
+    <pre id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio id animi et, 
+            hic ullam debitis praesentium illo quas eos ipsa.
+        </pre>
+
+    <div>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, est.</h1>
+        <h2 class="h2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, unde.</h2>
+        <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, asperiores
+            est. Nam, corrupti hic? Debitis facere eos perferendis nulla alias hic.
+            Possimus, necessitatibus beatae placeat sint veritatis iure animi voluptatibus.
+        </p>
+    </div>
+
+    <div>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, maiores!</h1>
+        <h2 class="h2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, cumque.</h2>
+        <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi
+            laudantium et harum. Hic, cum! Saepe, sequi autem. Consectetur quam nihil
+            accusamus aliquid debitis, perferendis sit quaerat aperiam magnam distinctio?
+        </p>
+
+    </div>
+
+</body>
+
+</html>
