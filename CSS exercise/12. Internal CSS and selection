@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>internal css and selector</title>
+        <style>
+            #header1{
+                background-color: aliceblue;
+                color: rgb(3, 250, 250);
+                font-size: x-large;
+                margin-top: 50px;
+                text-align:left;
+                margin-bottom: 50px;
+            }
+            #h01{
+                background-color: antiquewhite;
+                color: rgb(5, 240, 162);
+                font-size: large;
+                text-align: center;
+                margin-bottom: 40px;
+                /*
+                text-align: end;
+                text-align: justify;
+                text-align: start;
+                */
+            }
+            #div1{
+                background-color: beige;
+                height: 400px;
+                width: 200px;
+                font-size: 20px;
+                text-align: center;
+                margin: auto;
+                margin-bottom: 20px;
+
+            }
+            #span1{
+                background-color: rgb(241, 133, 0);
+                padding-left: 20px;
+                padding-right: 20px;
+
+            }
+            .span2{
+                background-color: blanchedalmond;
+                font-size: 20px;
+            }
+            .p1{
+                background-color: azure;
+                font-size: 22px;
+                font: 200px;
+            }
+            .pre1{
+                background-color: blanchedalmond;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header id="header1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iste at totam rerum, doloribus dicta.</header>
+        <h1 id="h01">Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus quisquam nisi deserunt corrupti maiores!</h1>
+        <div id="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod suscipit vero porro, eaque quo eveniet.</div>
+        <div id="div1">
+            <span id="span1">Lorem ipsum dolor sit amet.</span><br>
+            <hr>
+            <span class="span2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, quam!</span>
+            <hr>
+            <span id="span1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, reiciendis expedita optio consequuntur rem quos!</span>
+        </div>
+        <span id="span1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ex recusandae fugiat dolorem?</span>
+        <span class="span2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, natus.</span>
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sequi nam saepe distinctio reprehenderit sunt.</p>
+        <pre class="pre1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, fuga maxime eum sed voluptas ut at tempora id,
+             culpa ab veritatis tempore, magnam aliquam perspiciatis! Laudantium veniam repellendus repudiandae vel.
+        </pre>
+
+    </body>
+</html>
