@@ -1,73 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CSS Borders </title>
-
-        <style>
-           body{
-            background-color: antiquewhite;
-            
-           }
-           .parents{
-            color: blue;
-            height: 500px;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how to set margin and padding</title>
+    <style> 
+        .div1{
+            background-color: lightblue;
+            height: 200px;
             width: 500px;
-            background-color: rgb(202, 115, 7);
             margin: auto;
-            padding:20px;
-
-
-           }
-           #child{
-            color: blue;
-            height: 500px;
+        }
+        .span1{
+            background-color: lightgreen;
+            width: 100px;
+            height: 50px;
+            margin: auto;
+            /*do not set height and width for span . size depened on conent */
+        }
+        .span2{
+            background-color: lightcoral;
+            margin-left: 30px;
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            /*you can set margin in 4 sides also you can use shorthand margin property */
+        }
+        .span3{
+            background-color: lightgoldenrodyellow;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .span4{
+            background-color: rgb(93, 151, 85);
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .span5{
+            background-color: rgb(214, 125, 138);
+             margin-left: 20px;
+            margin-ight: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .span6{
+            background-color: rgb(85, 103, 206);
+             margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .div2{
+            background-color: lightgray;
+            height: 200px;
             width: 500px;
-            background-color: rgb(33, 92, 19);
-            padding-left: 20px;
-            margin-top: 50px;
-
-           }
-
-        </style>
-    </head>
-
-    <body>
-        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nobis.</h1>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, tenetur!</h2>
-        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio id animi et, 
-            hic ullam debitis praesentium illo quas eos ipsa.
-        </pre>
-
-        <div class="parents">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, est.</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, unde.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, asperiores
-             est. Nam, corrupti hic? Debitis facere eos perferendis nulla alias hic. 
-             Possimus, necessitatibus beatae placeat sint veritatis iure animi voluptatibus.
-            </p>
-            <div id="child">
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, officiis.</h1>
-                <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, quis.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid 
-                    voluptatum cumque optio unde aliquam autem minima adipisci reprehenderit 
-                    praesentium error minus recusandae aut voluptatibus distinctio, consectetur,
-                    quia pariatur saepe eum magni velit quis! Itaque quia aut dicta distinctio 
-                    expedita?
-                </p>
-            </div>
-        </div>
-
-        <div id="child">
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, maiores!</h1>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, cumque.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi 
-                laudantium et harum. Hic, cum! Saepe, sequi autem. Consectetur quam nihil 
-                accusamus aliquid debitis, perferendis sit quaerat aperiam magnam distinctio?
-            </p>
-
-        </div>
-
-    </body>
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <span class="span1">Span 1 txt </span>
+        <span class="span2">Span 2 txt </span>
+        <span class="span3">Span 3 txt </span>
+        <span class="span4">Span 4 txt </span>
+        <span class="span5">Span 5 txt </span>
+        <span class="span6">Span 6 txt </span>
+    </div>
+    <div class="div2">
+        <span class="span1">Span 1 txt </span>
+        <span class="span2">Span 2 txt </span>
+        <span class="span3">Span 3 txt </span>
+        <span class="span4">Span 4 txt </span>
+        <span class="span5">Span 5 txt </span>
+        <span class="span6">Span 6 txt </span>
+    </div>
+</body>
 </html>
