@@ -24,45 +24,43 @@
         }
         .span2{
             background-color: lightcoral;
-            margin-left: 30px;
-            margin-top: 20px;
-            margin-right: 20px;
-            margin-bottom: 20px;
-            /*you can set margin in 4 sides also you can use shorthand margin property */
+            margin-left: 50px;
+            margin-right: 200px;
+            /*you can set margin in 2 sides also you can use shorthand margin property */
         }
         .span3{
             background-color: lightgoldenrodyellow;
             margin-left: 20px;
             margin-right: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            
         }
         .span4{
             background-color: rgb(93, 151, 85);
             margin-left: 20px;
             margin-right: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
         }
         .span5{
             background-color: rgb(214, 125, 138);
              margin-left: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
         }
         .span6{
             background-color: rgb(85, 103, 206);
              margin-left: 20px;
             margin-right: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
         }
         .div2{
-            background-color: lightgray;
+            background-color: rgb(218, 185, 185);
             height: 200px;
             width: 500px;
             margin-top: 20px;
+            border: dotted;
+            color: rgb(45, 15, 216);
+            border-radius: 30px;
             margin-left: 50px;
+            font-size: 30px;
+            font-weight: lighter;
+            text-align: center;
+            font-family: ;Arial, Helvetica, sans-serif;
         }
     </style>
 </head>
@@ -82,6 +80,8 @@
         <span class="span4">Span 4 txt </span>
         <span class="span5">Span 5 txt </span>
         <span class="span6">Span 6 txt </span>
+        <span>hello </span>
+        <span>world</span>
     </div>
 </body>
 </html>
