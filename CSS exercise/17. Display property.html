@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property </title>
+    <style>
+        /* CSS Display Property */
+        .h1 {
+            background-color: lightblue;
+            display: block;
+            box-sizing: border-box;
+            width: 900px;
+            height: 200px;
+            border: 5px solid black;
+        }
+        .h2 {
+            background-color: rgb(220, 233, 104);
+            display: inline-block;
+            box-sizing: content-box;
+            width: 900px;
+            height: 200px;
+            /*  Note: width and height will not apply to inline elements */
+            border: 5px solid black;
+        }
+       .p1 {       
+            background-color: lightgreen;
+            display: inline-block;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 30px;
+        }
+        .p2 {
+            
+            background-color: rgb(76, 228, 195);
+            display: block;
+        }
+        .span1 {
+
+            background-color: lightcoral;
+        }
+        .span2 {
+            background-color: rgb(189, 82, 82);
+        }
+    </style>
+<body>
+    <div>
+        <h1 class="h1">H1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, voluptas.</h1>
+        <h1 class="h2">H2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, voluptas.</h1>
+        <p class="p1">p1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ullam?</p>
+        <p class="p2">p2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        <span class="span1">span1 Lorem ipsum dolor sit amet.</span>
+        <span class="span2">sapn2 Lorem ipsum dolor sit amet consectetur.</span>
+
+    </div>
+</body>
+</html>
